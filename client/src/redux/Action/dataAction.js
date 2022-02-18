@@ -10,3 +10,12 @@ export const collectdata =(res)=>{
     },
   };
 };
+
+export const onedata =(res)=>{
+  return{
+    type:ActioTypes.GET_ONEDATA,
+    payload:{
+      oneinfo:res,
+    }
+  }
+}

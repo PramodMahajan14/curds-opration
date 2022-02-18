@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
-import { collectalldata } from './datareducer';
+import { collectalldata ,Onedata} from './datareducer';
 
 const reducers = combineReducers({
-    alldata : collectalldata
+    alldata : collectalldata,
+    getonedata : Onedata
  });
  
  export default reducers;

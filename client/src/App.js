@@ -1,16 +1,15 @@
 import React from 'react'
-import './App.css';
 
-import Dashbord from './dashbord';
+
+import Home from './Home';
 // import { StyledEngineProvider } from '@mui/material/styles';
 
 
 
 function App() {
   return (<>
-
-   
-   <Dashbord/>
+ <Home/>
+     
 
   </>);
 }
