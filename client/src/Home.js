@@ -241,7 +241,7 @@ const Home =()=>{
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>
-          <Button onClick={(e)=>findeEmail("sendmail",new_email)}>Delete</Button>
+          <Button onClick={(e)=>findeEmail("sendmail",new_email)}>Send</Button>
         </DialogActions>
       </Dialog>
 
